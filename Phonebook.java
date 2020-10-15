@@ -84,8 +84,8 @@ public class Phonebook extends Application {
 		t5.setLayoutX(100);
 		t5.setLayoutY(120);
 
-		File left = new File("left_arrow.png");
-		File right = new File("right_arrow.png");
+		File left = new File("images\\left_arrow.png");
+		File right = new File("images\\right_arrow.png");
 
 		Image l1 = new Image(left.toURI().toString(), 20, 20, false, false);
 		Image r = new Image(right.toURI().toString(), 20, 20, false, false);
