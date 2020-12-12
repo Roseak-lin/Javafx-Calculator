@@ -243,7 +243,6 @@ public class Phonebook extends Application {
 							String[] parts = line.split(": ");
 							if (parts.length > 1) {
 								entries.put(totalLines, parts[1]);
-								System.out.println();
 								if (parts[0].equals("First Name") && parts[1].equals(t1.getText())) {
 									arr.add(totalLines);
 								}
