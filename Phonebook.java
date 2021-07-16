@@ -94,8 +94,8 @@ public class Phonebook extends Application {
 		t.setX(100);
 		t.setY(165);
 
-		File left = new File("C:\\Users\\rosea\\Pictures\\Java\\arrow1.png");
-		File right = new File("C:\\Users\\rosea\\Pictures\\Java\\arrow2.png");
+		File left = new File("left_arrow.png");
+		File right = new File("right_arrow.png");
 
 		Image l1 = new Image(left.toURI().toString(), 20, 20, false, false);
 		Image r = new Image(right.toURI().toString(), 20, 20, false, false);
